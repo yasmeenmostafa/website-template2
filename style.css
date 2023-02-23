@@ -1,0 +1,439 @@
+.section1 {
+    background-image: url(slider-01.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+    margin: 0;
+    position: relative;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0%;
+    padding: 0pc;
+}
+
+.color {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+}
+
+.left {
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    
+    font-size: 25px;
+    font-weight: bolder;
+    color: #FF305B;
+
+
+}
+
+.right {
+   
+    position: absolute;
+    right: 0;
+
+    padding-top: 10px;
+    width: 50%;
+    font-size: 18px;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    
+    position: relative;
+
+}
+
+.right li {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+.right a {
+    display: block;
+    margin-left: 20px;
+
+}
+
+.content1 {
+    position: absolute;
+    margin: auto;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+    
+}
+
+.content1 p {
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+.content1 h2 {
+    color: #FF305B;
+    font-size: 60px;
+    
+    margin: 20px 0 30px;
+
+}
+
+.content1 h3 {
+    font-weight: lighter;
+    font-size: 30px;
+   
+    margin-top: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.section3 {
+
+    background-color: rgb(241, 241, 241);
+    position: relative;
+    height: 60vh;
+}
+
+.services {
+    width: 80%;
+    height: 60vh;
+    position: absolute;
+    left: 10%;
+    top: 38%;
+}
+
+.service {
+    
+    width: 25%;
+    float: left;
+    text-align: center;
+    
+    transition-property: background-color, box-shadow;
+    transition-duration: 0.5s;
+    height: 55%;
+    border-radius: 2%;
+
+
+}
+
+.service p {
+    color: rgb(152, 152, 152);
+}
+
+.service:hover {
+   
+    background-color: white;
+    box-shadow: 5px rgba(201, 199, 199, 0.458);
+}
+
+.service h3 {
+    margin-bottom: 40px;
+
+}
+
+.content3 {
+    padding-top: 25px;
+    
+}
+
+.title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.line1 {
+    width: 5%;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+   
+}
+
+.line2 {
+    width: 10%;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.inner {
+    margin: 5px;
+}
+
+.products {
+    width: 80%;
+
+    margin: auto;
+}
+
+.outerproduct {
+    float: left;
+    width: 33.3%;
+    
+}
+
+.innerproduct img {
+    width: 100%;
+}
+
+.innerproduct {
+    padding: 10px;
+
+
+}
+.all li{
+    display: inline-block;
+    padding:15px;
+   
+}
+.all {
+   
+    text-align: center;
+    color: #FF305B;
+    font-weight: lighter;
+}
+.form{
+    position: relative;
+}
+form{
+    position:absolute;
+    width:50%;
+    left:25%;
+    top:40px;
+}
+.half {
+    width:330px;
+
+    
+    
+}
+input , textarea{
+    padding: 10px;
+    margin-bottom:20px;
+    
+    border-radius: 4%;
+    border:1px solid rgb(160, 159, 159)
+   
+ 
+}
+.full{
+    width:690px ;
+}
+.form button{
+    padding: 15px;
+    width: 20%;
+    border-radius:4% ;
+    border: 0px #FF305B;
+    background-color: #FF305B;
+    color:white;
+    font-size:14px;
+    transition-property: background-color;
+    transition-duration: 0.5ms;
+}
+.form button:hover{
+    background-color: red;
+}
+.section8{
+    height:70vh
+}
+.footer{
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(51,51,51);
+    color:white;
+    padding-top:100px;
+    text-align: center;
+}
+.footer a{
+    color: #FF305B;
+}
+.blog {
+    float: left;
+    width:30%;
+    box-sizing: border-box;
+    margin:20px 10px ;
+    
+    background-color: white;
+    transition-property: color,property ;
+    transition-duration: 0.1s;
+}
+.descblog{
+    padding:10px 20px 20px 20px;
+}
+.blog img{
+    width:100%;
+}
+
+.blogs {
+    width:80%;
+    margin: auto;
+    
+    margin-top: 50px;
+}
+.section7{
+    background-color: rgb(241, 241, 241) ;
+    color:rgb(122, 120, 120);
+    height: 100vh;
+}
+
+.blogtitle{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+.blog a:hover{
+    color:#FF305B;
+    cursor: pointer;
+}
+.section5{
+    width:100%;
+    height:30vh;
+    background-color: rgb(241, 241, 241)  ;
+}
+.numbers{
+    width: 80%;
+    margin: auto;
+    
+}
+.number{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 60px;
+    color:rgb(96, 96, 95)
+}
+.number h2{
+    color:black;
+}
+.section6{
+    height:80vh;
+    width: 100%;
+    
+    position: relative;
+}
+.feedback{
+    background-color: rgb(241, 241, 241)  ;
+    position: absolute;
+    top:27%;
+    left:25%;
+    width:50%;
+    height: 50%;
+    border-radius: 2%;
+    overflow: hidden;
+}
+.skew {
+    position: absolute;
+    width:30%;
+    height: 70%;
+    top:0px;
+    left:0px;
+    background-color: #FF305B;
+    transform-origin: left bottom;
+    transform: skewy(130deg);
+    border-radius: 2%;
+}
+.part1{
+    position: absolute;
+    top:15%;
+    float: left;
+    width: 20%;
+    
+    left:30px;
+}
+.part1 img {
+    border-radius:50%;
+    transform: scale(0.7);
+}
+.part2{
+    position: absolute;
+    float:left;
+    left:25%;
+    top:15%;
+    width:70%;
+    box-sizing: border-box;
+    
+}
+.section2{
+    width:80%;
+    height: 100vh;
+    
+    margin: auto;
+    position: relative;
+}
+.photo2{
+    float: left;
+    border-radius: 3%;
+    width:30%;
+    
+    position: absolute;
+    top:20%;
+   left:10%;
+   z-index: 2;
+
+}
+.photo2 img {
+    border-radius: 3%;
+    width:100%;
+   
+}
+.photo2::after{
+    content: '';
+    position: absolute;
+    top: -20px;;
+    left:-20px;
+    width:95%;
+    height:95%;
+    
+    border:7px solid black;
+    border-radius: 3%;
+    z-index: -5;;
+   
+}
+.desc2{
+    float: right;
+   
+    width:50%;
+   
+    position: absolute;
+    top:20%;
+    left:45%;
+
+}
+.col1{
+    width:50%;
+    padding-top:20px ;
+    
+}
+td{
+    padding-top:20px ;
+}
+.section2 button{
+    padding:10px  20px;
+    margin: 20px;
+    background-color: #FF305B;
+    color: white;
+    border: solid 1px #FF305B;
+    border-radius: 4%;
+    transition-property: background-color;
+    transition-duration: 5ms;
+    
+}
+.section2 span{
+    color: #FF305B;
+}
+.section2 button:hover{
+    background-color:red;
+}
